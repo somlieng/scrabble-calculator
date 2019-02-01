@@ -1,6 +1,11 @@
-# test-project
+# Scarbble Calculator
 
-> A Vue.js project
+> A scrabble world point calculator.
+
+Current features:
+- calculate points for any word
+- calculate words with double word bonus
+- calculate words with triple word bonus
 
 ## Build Setup
 
