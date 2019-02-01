@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Scramble Point Calculator</title>
+  </head>
+
+  <body>
+    <div id="word">
+      <h1>{{header}}</h1>
+      <input v-model="scrabble" />
+      <p>{{points}}</p>
+      <button v-on:click="calculate">Calculate points</button>
+      <button v-on:click="double">Double Word</button>
+      <button v-on:click="triple">Triple Word</button>
+    </div>
+  </body>
+</html>
